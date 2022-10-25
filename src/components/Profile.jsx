@@ -9,7 +9,7 @@ const Profile = () => {
             <div className="relative my-10 px- flex justify-center items-start">
                 {/* image and heading */}
                 <div className="w-full flex flex-col mx-auto justify-center items-center">
-                    <img id='profile__img' className='w-[88px] h-[88px]' src={myprofile} alt="profileImg" />
+                    <img id='profile__img' className='w-[88px] h-[88px] mb-6' src={myprofile} alt="profileImg" />
                     <h1 id='twitter' className='text-xl font-semibold p-2'>Emmanuel Inua</h1>
                     <h1 id='slack' className='hidden text-xl font-semibold p-2'>ArtofNuel</h1>
                 </div>
